@@ -3,6 +3,9 @@ public class Bill3 {
 	public static void main(String[] args) {
 		// To get you started, here is the first line in the program:
 	    String name1 = args[0];
-	    // Replace this comment with the rest of your code   
-	}
+		String name2 = args[1];
+		String name3 = args[2];
+		double bill = Math.ceil((Double.parseDouble(args[3]))/3); //all the three actions that need to work on the biil - turning to doble, devide by 3 and rounded up
+		System.out.println("Dear " + name1 + ", " + name2 + ", and " + name3 + ": Pay " + bill + " Shekels each.");
+		}
 }
