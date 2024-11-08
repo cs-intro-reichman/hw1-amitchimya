@@ -22,7 +22,8 @@ public class TimeFormat {
 			format = " AM";
 		}
 		else {
-			hDig = (hours-12) + ":";
+			if (hours==12) {hDig = "12:";}
+			else {hDig = (hours-12) + ":";};
 			format = " PM";
 		}
 		if (minutes<10) {
