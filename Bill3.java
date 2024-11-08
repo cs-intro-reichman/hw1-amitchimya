@@ -6,6 +6,6 @@ public class Bill3 {
 		String name2 = args[1];
 		String name3 = args[2];
 		double bill = Math.ceil((Double.parseDouble(args[3]))/3); //all the three actions that need to work on the biil - turning to doble, devide by 3 and rounded up
-		System.out.println("Dear " + name1 + ", " + name2 + ", and " + name3 + ": Pay " + bill + " Shekels each");
+		System.out.println("Dear " + name1 + ", " + name2 + ", and " + name3 + ": pay " + bill + " Shekels each");
 		}
 }
