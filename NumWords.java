@@ -7,6 +7,6 @@ public class NumWords {
 	  int tens = rest/10;
 	  int ones = rest-(tens*10);
 
-	  System.out.println(hundrends + " hundrends, " + tens + " tens, " + ones + " ones.");
+	  System.out.println(hundrends + " hundrends, " + tens + " tens, and " + ones + " ones.");
 	}
 }
